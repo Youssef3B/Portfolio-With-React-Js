@@ -1,4 +1,4 @@
-import React,  { useEffect, useCallback }  from 'react'
+import React,  { useCallback }  from 'react'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import './App.css';
@@ -9,14 +9,11 @@ import Features from './Components/Features/Features';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Contact from './Components/Contact/Contact';
 import Resume from './Components/Resume/Resume';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 
 function App() {
-    useEffect(() => {
-        AOS.init();
-      }, [])
+   
   const particlesInit = useCallback(async engine => {
     console.log(engine);
     await loadFull(engine);
