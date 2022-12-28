@@ -1,0 +1,64 @@
+.hero_section img{
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+   
+}
+
+.border_avatar{
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    margin-top: 100px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute !important;
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82); 
+    border-top: #151515;
+    animation: load 6s linear infinite;
+
+}
+#avatar_hero{
+    margin-top: 110px !important;
+    z-index: 1;
+}
+
+@keyframes load{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.hero_title h1{
+    font-weight: 700 !important;
+    font-size: 46px !important;
+    color: #c4cfde !important;
+}
+
+#iam {
+    color: #c4cfde !important;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#iam + span {
+    color: #db0d4c !important;
+    font-size: 30px;
+    font-weight: 600;
+}
+.hero_cv{
+    background-color: #db0d4c !important;
+    color: white;
+    width: 200px;
+    height: 50px !important;
+    display: block;
+    margin: auto !important;
+    margin-top: 20px !important;
+    transition: 0.4s ease-in-out;
+}
+.hero_cv:hover{
+    color: #db0d4c !important;
+    background-color: white !important;
+    letter-spacing: 1.5px  !important;
+}

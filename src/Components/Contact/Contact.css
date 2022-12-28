@@ -1,0 +1,90 @@
+.contact_section{
+    margin-top: 100px !important;
+    padding-left: 6% !important;
+    padding-right: 6% !important;
+    
+   
+}
+.contact_section h5{
+    color: #db0d4c !important;
+    font-weight: 800 !important;
+}
+.contact_section h2{
+    color: #c4cfde !important;
+    font-size: 50px !important;
+    font-weight: 700;
+}
+.contact_section .cards{
+    background-color: #212428;
+    padding: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 8px !important;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    margin-left: 15px !important;
+    
+}
+.contact_section .cards p{
+    color: #c4cfde !important;
+}
+.contact_section .image_contact{
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+.contact_section .image_contact img{
+    border-radius: 10px !important;
+    transition: 0.4s ease-in-out;
+}
+.contact_section .cards:hover .image_contact img{
+    transform: scale(1.2);
+}
+
+
+.contact_section .cards2{
+    background-color: #212428;
+    padding: 30px !important;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 8px !important;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    margin-left: 15px !important;
+}
+.contact_section input{
+    padding: 10px !important;
+    background-color: #191b1e !important;
+    border: none;
+    color: white !important;
+}
+.contact_section input:focus{
+    outline: #db0d4c !important;
+    border: 1px solid #db0d4c !important;
+}
+.contact_section label{
+    color: #c4cfde !important;
+    margin-bottom: 8px !important;
+}
+
+.contact_section textarea{
+    padding: 10px !important;
+    background-color: #191b1e !important;
+    border: none;
+    color: white !important;
+}
+.contact_section textarea:focus{
+    outline: #db0d4c !important;
+    border: 1px solid #db0d4c !important;
+}
+.contact_section button{
+    width: 200px !important;
+    height: 50px !important;
+    display: block !important;
+    margin: auto !important;
+    background-color: #db0d4c;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+.contact_section button:hover{
+    color: #db0d4c;
+    background-color: white !important;
+    letter-spacing: 1.2px;
+}
