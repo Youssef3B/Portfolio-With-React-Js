@@ -112,7 +112,7 @@ const particlesLoaded = useCallback(async container => {
         
             <div  className="col-lg-9 col-xl-10 ">
             <Routes>
-            <Route path="/Portfolio-With-React-Js" exact element={<Herosection />} />
+            <Route path="/" exact element={<Herosection />} />
             <Route path="features" element={<Features />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="resume" element={<Resume />} />
