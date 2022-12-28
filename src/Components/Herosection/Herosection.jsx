@@ -9,13 +9,13 @@ const Herosection = () => {
     
     <div className="row  position-relative">
         <div className="d-flex justify-content-center">
-          <div data-aos="fade-up" className='border_avatar'>
+          <div className='border_avatar'>
             
           </div>
-          <img data-aos="fade-up" data-aos-duration="400"  id='avatar_hero' src="images/anime-iconss-.jpg" alt="" className='img-fluid' />
+          <img   id='avatar_hero' src="images/anime-iconss-.jpg" alt="" className='img-fluid' />
         </div>
         <div className='hero_title text-center mt-5 text-white'>
-          <h1  data-aos="fade-right" data-aos-duration="1000">Hi, I'm Youssef Ababou</h1>
+          <h1 >Hi, I'm Youssef Ababou</h1>
           <span className='mt-5' id="iam">I am a</span>
           <Typical 
             steps={[" Designer", 2000, ' Full Stack Developer!', 2000]}
