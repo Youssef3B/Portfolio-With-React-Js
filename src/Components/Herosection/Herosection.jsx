@@ -25,7 +25,7 @@ const Herosection = () => {
           
         </div>
           
-          <a href='files/ussef-cv.pdf' target='_blank'  className='hero_cv btn'>Download my CV</a>
+          <a id='cv' href='files/ussef-cv.pdf' target='_blank'  className='hero_cv btn'>Download my CV</a>
                   
         
     </div>
