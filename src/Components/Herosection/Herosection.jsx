@@ -12,7 +12,7 @@ const Herosection = () => {
           <div className='border_avatar'>
             
           </div>
-          <img   id='avatar_hero' src="images/anime-iconss-.jpg" alt="" className='img-fluid' />
+          <img   id='avatar_hero' src="images/anime.jpg" alt="" className='img-fluid' />
         </div>
         <div className='hero_title text-center mt-5 text-white'>
           <h1 >Hi, I'm Youssef Ababou</h1>
@@ -24,11 +24,9 @@ const Herosection = () => {
           />
           
         </div>
-        <form method="get" action="files/ussef-cv.pdf">
           
-          <button type='submit' formTarget='_blank'  className='hero_cv btn' data-aos="zoom-in" data-aos-duration="1000">Download my CV</button>
+          <a href='files/ussef-cv.pdf' target='_blank'  className='hero_cv btn'>Download my CV</a>
                   
-        </form>
         
     </div>
     </section>

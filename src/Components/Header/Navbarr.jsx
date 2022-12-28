@@ -29,7 +29,7 @@ const Navbarr = () => {
         <Navbar.Collapse className='ms-4 mt-3' id="basic-navbar-nav">
           <Nav className="me-auto">
           <div className='bg-avatar text-center'>
-            <img src="images/anime-iconss-.jpg" alt="" className='img-fluid' />
+            <img src="images/anime.jpg" alt="" className='img-fluid' />
           </div>
           <div className='link_nav'>
             <NavLink to="/" className={({ isActive}) => `text-white mt-5 d-flex align-items-center fs-5 ${isActive ? 'active_navbar' : ''}`} ><AiOutlineHome className='mx-2' />HOME</NavLink>
